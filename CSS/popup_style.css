@@ -1,0 +1,44 @@
+.pay_logo img {
+    width: 80px;
+}
+
+.images-card {
+    justify-content: space-evenly;
+}
+#popup_main-box{
+    display: none;
+}
+.submit-bt{
+    text-align: center;
+    user-select: auto;
+    margin-left: 8rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.pay_congtainer {
+    background: #EEF1FF;
+    width: 485px !important;
+    position: absolute;
+    top: 2rem;
+    left: 60rem;
+}
+
+.hd_payment {
+    margin-top: 1rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.payment-form div {
+    display: flex;
+}
+
+.payment-form input {
+    border: 0px solid;
+    padding: 1rem;
+    margin: 10px;
+    margin: 15px;
+    width: 100% !important;
+}
+.payment-form input:focus{
+    outline: none;
+}

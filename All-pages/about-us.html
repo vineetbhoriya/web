@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!--bootstrap 5 Css & JS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            /* background-color: rgb(28, 28, 88); */
+            /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+        }
+
+        /* body{
+                background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+        }*/
+        body {
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            height: 100vh;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        img {
+            border-radius: 1rem;
+            min-width: 25%;
+            max-width: fit-content;
+
+        }
+
+        .about {
+            padding: 2rem;
+            /* margin: 2rem; */
+            width: 60%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contaiener-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fs-5" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5" href="all_program.html" target="_parent">All Program</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5" href="study-mater.html">Study Material </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5" href="about-us.html" target="_parent">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5" href="../index.html#abc">Contact</a>
+                        </li>
+                    </ul>
+                    <a class="navbar-brand text-white" href="about-us.html" target="4">Developers Point</a>
+                    <button type="button" class="btn p-0 position-relative" style="background-color:transparent;">
+
+                        <a class="btn" href="form.html" target="3"><img src="../images/user_logo.png" id="user-logo"
+                                alt="user-logo"> </a>
+
+                        <span style="left: 46px !important;top: 5px !important;"
+                            class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle">
+
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid text-white d-flex p-5">
+        <div class="about">
+            <h1>About us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid similique, autem ea molestias minima
+                quia omnis vero illo aliquam? Quam est ab illum repellat accusantium tempore veritatis deleniti
+                accusamus tempora
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione voluptatibus perspiciatis quidem
+                itaque reiciendis ipsam in est doloribus labore! Dolorum aut officia odio tempore maxime, a fugiat
+                incidunt quia voluptate</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quasi assumenda, fuga dolore soluta optio
+                eveniet perferendis commodi autem iusto vel, ab, totam in id voluptatum? Maiores vel asperiores
+                excepturi.
+                Soluta facilis sequi accusantium obcaecati nobis eos id harum tempore laboriosam exercitationem! Nam
+                saepe unde aliquam quae perspiciatis voluptates? Sint omnis tenetur nam illum similique quae voluptas!
+                Aut, perspiciatis itaque.
+                Dignissimos beatae voluptas a quod minima asperiores soluta ad adipisci, iusto vel accusantium odio
+                sapiente, ipsum expedita! Distinctio ab quibusdam tempore fuga expedita asperiores accusamus quisquam
+                dolor cum, enim alias?
+                Nihil cum voluptatem sint recusandae itaque vero odit, aspernatur, iste unde in, dolore error. Nemo ad
+                vitae et architecto modi iure, placeat unde ipsum accusamus veniam voluptatem dolorum nostrum sint.</p>
+        </div>
+        <div>
+            <img src="https://images.unsplash.com/photo-1522010265321-fd346cc64d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                alt="">
+        </div>
+    </div>
+</body>
+
+
+</html>

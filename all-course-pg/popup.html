@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!--bootstrap 5 Css & JS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="popup_style.css">
+</head>
+
+<body>
+    <!-- Popup code -->
+    <div class="container pay_congtainer m-5 payment_box  p-2" style="width:737px;">
+        <div class="hd_payment">
+            <h2 class="text-center text-primary  m-2">Payment Gateway</h2>
+        </div>
+        <div class="images-card d-flex">
+            <div class="pay_logo">
+                <img src="https://i0.wp.com/zeevector.com/wp-content/uploads/Logo-Visa-Card-PNG.png?fit=875%2C556&ssl=1"
+                    alt="visa logo" class="image-fluid">
+            </div>
+            <div class="pay_logo">
+                <img src="https://assets.stickpng.com/images/60e7f964711cf700048b6a6a.png" alt="googelpay" class="image-fluid">
+            </div>
+            <div class="pay_logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Paytm_logo.png/640px-Paytm_logo.png"
+                    alt="Paytm_logo" class="image-fluid">
+            </div>
+            <div class="pay_logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Amazon_Pay_logo.svg/2560px-Amazon_Pay_logo.svg.png"
+                    alt="amazon_logo" class="image-fluid">
+            </div>
+        </div>
+        <form action="#" type="post" class="payment-form" class="d-flex flex-column p-5">
+            <div>
+                <label for="CARD NUMBER"></label>
+                <input type="text" name="CARD_NUMBER" id="CARD_NUMBER" placeholder="Vaid Card Number">
+            </div>
+
+            <div class="d-flex flex-row">
+                <label for="EXPIRATION DATE"></label>
+                <input type="date" name="date" id="date">
+                <label for="CV Code"></label>
+                <input type="text" name="CV_Code" id="CV_Code" placeholder="CVC">
+            </div>
+            <div>
+                <label for="Card Owner"></label>
+                <input type="text" name="Card_Owner" id="Card_Owner" placeholder="Card Owner Name">
+            </div>
+            <div class="submit-btn">
+                <input class="bg-primary text-light fs-5 btn" type="submit" name="submit" id="submit">
+            </div>
+        </form>
+    </div>
+    <!-- Popup code end -->
+
+</body>
+
+</html>

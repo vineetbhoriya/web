@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Testing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/js"
+        href="://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/course.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/popup_style.css">
+
+    <style>
+        .pra {
+            word-spacing: 2px;
+            line-height: 1.5;
+            font-size: 20px;
+            font-weight: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="../js/popup.js"></script>
+    <div class="contaiener-fluid ">
+        <nav class="navbar navbar-expand-lg  bg-dark">
+            <div class="container-fluid ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fs-5" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5" href="../All-pages/all_program.html" target="_parent">All Program</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5" href="../All-pages/study-mater.html">Study Material </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5" href="../All-pages/about-us.html" target="_parent">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5" href="../index.html#abc">Conctact</a>
+                        </li>
+                    </ul>
+                    <a class="navbar-brand text-white" href="../All-pages/about-us.html" target="4">Developers Point</a>
+                    <button type="button" class="btn p-0 position-relative" style="background-color:transparent;">
+
+                        <a class="btn" href="../All-pages/form.html" target="3"><img src="../images/user_logo.png" id="user-logo"
+                                alt="user-logo"> </a>
+
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle">
+
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section>
+        <div class="container-fluid bg-dark">
+            <div class="course-header d-flex justify-content-around">
+                <div class="course-dd">
+                    <h2 class="px-4 fs-1">Software Testing: <span class="fs-3">The Complete Software Testing Course</span> </h2>
+                    <h5 class="px-4 w-75 mt-4 pra">Learn A-Z everything about Software Testing, from basic to advanced topic</h5>
+                    <p class="px-4">2500 students </p>
+                    <p class="px-4">Created by <a href="#" class="fs-6">Vineet Bhoriya</a> </p>
+                </div>
+                <div class="course-card">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYbeyaYkqWyEOhZShsREHT7i1EnHlmYzo9oQ&usqp=CAU"
+                            class="card-img-top" alt="image">
+                        <div class="card-body text-dark">
+                            <h5 class="card-title">Software Testing Course</h5>
+                            <h5 class="card-title">₹ 2000</h5>
+                            <div class="course-btn-box">
+                                <button type="button" class="btn btn-secondary" onclick="my_popup();">Buy Now</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- Popup code -->
+         <div id="popup_main-box">
+            <div class="container pay_congtainer m-5 payment_box  p-2" style="width:737px;">
+                <div class="hd_payment">
+                    <h2 class="text-center text-primary  m-2">Payment Gateway</h2>
+                </div>
+                <div class="images-card d-flex">
+                    <div class="pay_logo">
+                        <img src="https://i0.wp.com/zeevector.com/wp-content/uploads/Logo-Visa-Card-PNG.png?fit=875%2C556&ssl=1"
+                            alt="visa logo" class="image-fluid">
+                    </div>
+                    <div class="pay_logo">
+                        <img src="https://assets.stickpng.com/images/60e7f964711cf700048b6a6a.png" alt="googelpay"
+                            class="image-fluid">
+                    </div>
+                    <div class="pay_logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Paytm_logo.png/640px-Paytm_logo.png"
+                            alt="Paytm_logo" class="image-fluid">
+                    </div>
+                    <div class="pay_logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Amazon_Pay_logo.svg/2560px-Amazon_Pay_logo.svg.png"
+                            alt="amazon_logo" class="image-fluid">
+                    </div>
+                </div>
+                <form action="#" type="post" class="payment-form" class="d-flex flex-column p-5">
+                    <div>
+                        <label for="CARD NUMBER"></label>
+                        <input type="text" required name="CARD_NUMBER" id="CARD_NUMBER" placeholder="Vaid Card Number">
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <label for="EXPIRATION DATE"></label>
+                        <input type="date" name="date" id="date">
+                        <label for="CV Code"></label>
+                        <input type="text" name="CV_Code" id="CV_Code" placeholder="CVC">
+                    </div>
+                    <div>
+                        <label for="Card Owner"></label>
+                        <input type="text" name="Card_Owner" id="Card_Owner" placeholder="Card Owner Name">
+                    </div>
+                    <div class="submit-btn">
+                        <button type="button" class="bg-primary text-light fs-5 btn submit-bt" onclick="my_popup_close();">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Popup code end -->
+        <div class="container-fluid fg-bx">
+            <div class="border border-2 p-4">
+                <h3 class="ms-4">What you'll learn</h3>
+                <div class="row p-2">
+                    <div class="col p-2">
+                        <ul class="list">
+                            <li>How to make UI in Software Testing.</li>
+                            <li>How to make fully interactive prototype.</li>
+                            <li>You will be able to add your projects in your CV.</li>
+                            <li>How to implement colour and image properly in your designs.</li>
+                        </ul>
+                    </div>
+                    <div class="col p-2">
+                        <ul class="list">
+                            <li>How to work in Software Testing</li>
+                            <li>Bulid UX Projects from beging to end </li>
+                            <li>How to create simple web design</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

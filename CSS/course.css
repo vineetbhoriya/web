@@ -1,0 +1,23 @@
+.course-header{
+    height: 25rem;
+    color: white;
+    padding-top: 3rem;
+}
+.course-dd{
+    height:15rem ;
+    padding: 2rem;
+}
+.fg-bx{
+    width:50rem ;
+    float: left;
+    margin: 3rem 11rem;
+    /* padding: 1rem; */
+}
+.course-btn-box{
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+}
+.list li{
+    padding: 8px;
+}
